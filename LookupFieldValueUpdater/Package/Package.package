@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="6587f286-f9d0-4568-9f86-309592d9aad7" solutionId="6587f286-f9d0-4568-9f86-309592d9aad7" resetWebServer="false" sharePointProductVersion="16.0" name="LookupFieldValueUpdater" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" />
