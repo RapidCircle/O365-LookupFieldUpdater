@@ -128,7 +128,8 @@ namespace LookupFieldValueUpdaterWeb.Services
             clientContext.Load(fields);
             clientContext.ExecuteQuery();
 
-            if (!item.ContentType.Name.Equals("Rapid Delivery Document Set NL"))
+            //if (!item.ContentType.Name.Equals("Rapid Delivery Document Set NL"))
+            if(!item.ContentType.Id.ToString().StartsWith("0x0120D52000"))
                 return;
 
             List<LookupFieldSet> lookupDefinitions = new List<LookupFieldSet>();
